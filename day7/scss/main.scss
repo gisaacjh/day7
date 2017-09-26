@@ -1,0 +1,31 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+$textColor: #888;
+$borderColor: rgba(0,0,0,0.07);
+$backGround: #f4f4f4;
+$backGroundBox: white;
+
+.app-container {
+  display: flex;
+
+}
+
+.box {
+  display: flex;
+  border-color: $borderColor;
+  background-color: $backGround;
+  text-align: center;
+}
+
+h2 {
+  color: $textColor;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+#app-container{
+}
